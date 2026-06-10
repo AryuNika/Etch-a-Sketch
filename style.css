@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 20px;
+}
+
+div.columnContainer {
+    border: 1px solid black;
+}
+
+
+#the-container {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    aspect-ratio: 1 / 1;
+    width: 800px;
+    display: flex;
+    flex-flow: column nowrap;
+    border: 1px solid red;
+}
+
+.rowContainer{
+    display: flex;
+    flex-flow: row nowrap;
+    flex: 1;
+}
+
+.columnContainer{
+    display: flex;
+    flex-flow: row nowrap;
+    flex: 1;
+}   
+
+#the-button {
+    height: 50px;
+    width: 200px;
+    margin: 20px;
+    cursor: pointer;
+}
